@@ -16,8 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/samsung/c5lte/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/c5lte/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/c5lte/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/c5lte/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/c5lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/c5lte/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/samsung/c5lte/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -78,8 +80,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/c5lte/proprietary/etc/U13OL_s5k3l2xx_module_info.xml:system/etc/U13OL_s5k3l2xx_module_info.xml \
     vendor/samsung/c5lte/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/samsung/c5lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/c5lte/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/samsung/c5lte/proprietary/lib/libcryptfs_hw.so:system/lib/libcryptfs_hw.so \
+    vendor/samsung/c5lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/c5lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/c5lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/c5lte/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/samsung/c5lte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/c5lte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/c5lte/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -639,6 +646,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api \
     libtime_genoff \
     TimeService
