@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c5lte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/c5lte/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/c5lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c5lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c5lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/c5lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -94,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/c5lte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/c5lte/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/samsung/c5lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/c5lte/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/samsung/c5lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c5lte/proprietary/qcril/qcril.db:system/qcril/qcril.db \
