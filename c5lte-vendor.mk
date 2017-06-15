@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/samsung/c5lte/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/samsung/c5lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
+    vendor/samsung/c5lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/c5lte/proprietary/qcril/qcril.db:system/qcril/qcril.db \
     vendor/samsung/c5lte/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/c5lte/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
