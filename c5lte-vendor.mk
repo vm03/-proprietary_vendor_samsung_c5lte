@@ -83,7 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/samsung/c5lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/c5lte/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
+    vendor/samsung/c5lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
+    vendor/samsung/c5lte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/c5lte/proprietary/lib/libcryptfs_hw.so:system/lib/libcryptfs_hw.so \
+    vendor/samsung/c5lte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/c5lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/c5lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/c5lte/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -96,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/samsung/c5lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c5lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/c5lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c5lte/proprietary/qcril/qcril.db:system/qcril/qcril.db \
     vendor/samsung/c5lte/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/c5lte/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
