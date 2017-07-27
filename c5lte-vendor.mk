@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/etc/P08QL_s5k4h5yc_module_info.xml:system/etc/P08QL_s5k4h5yc_module_info.xml \
     vendor/samsung/c5lte/proprietary/etc/Q08QL_s5k4h5yc_module_info.xml:system/etc/Q08QL_s5k4h5yc_module_info.xml \
     vendor/samsung/c5lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/c5lte/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c5lte/proprietary/etc/U13OL_s5k3l2xx_module_info.xml:system/etc/U13OL_s5k3l2xx_module_info.xml \
     vendor/samsung/c5lte/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/samsung/c5lte/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
@@ -671,5 +672,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libtfa98xx \
     libtime_genoff \
     TimeService
