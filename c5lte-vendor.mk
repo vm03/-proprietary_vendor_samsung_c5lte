@@ -41,6 +41,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/samsung/c5lte/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/samsung/c5lte/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
+    vendor/samsung/c5lte/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/samsung/c5lte/proprietary/etc/firmware/ois_SE_BU24219.bin:system/etc/firmware/ois_SE_BU24219.bin \
     vendor/samsung/c5lte/proprietary/etc/firmware/ois_SP_BU24219.bin:system/etc/firmware/ois_SP_BU24219.bin \
     vendor/samsung/c5lte/proprietary/etc/firmware/ois_VE_BU24219.bin:system/etc/firmware/ois_VE_BU24219.bin \
