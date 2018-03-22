@@ -87,12 +87,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/c5lte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/c5lte/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
+    vendor/samsung/c5lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/c5lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c5lte/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/c5lte/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/c5lte/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     vendor/samsung/c5lte/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/c5lte/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+    vendor/samsung/c5lte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
     vendor/samsung/c5lte/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/c5lte/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/c5lte/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
