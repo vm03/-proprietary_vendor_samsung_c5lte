@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/c5lte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/c5lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/c5lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/c5lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c5lte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c5lte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -132,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -437,6 +439,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -501,6 +504,7 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
+    TimeService \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
