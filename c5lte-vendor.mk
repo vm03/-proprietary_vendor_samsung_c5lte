@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/samsung/c5lte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/samsung/c5lte/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
-    vendor/samsung/c5lte/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/samsung/c5lte/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/c5lte/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/c5lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
@@ -407,7 +406,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/samsung/c5lte/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
@@ -418,7 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/samsung/c5lte/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
