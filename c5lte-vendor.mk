@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/c5lte/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/samsung/c5lte/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/c5lte/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/samsung/c5lte/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/c5lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c5lte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/c5lte/proprietary/bin/radish:system/bin/radish \
@@ -142,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
