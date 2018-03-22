@@ -426,6 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
@@ -454,8 +455,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
@@ -493,6 +498,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtfa98xx \
+    libloc_api_v02 \
+    libloc_ds_api \
     libtime_genoff \
     shutdownlistener \
     qcrilmsgtunnel \
