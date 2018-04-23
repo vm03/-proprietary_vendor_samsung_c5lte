@@ -528,5 +528,4 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
