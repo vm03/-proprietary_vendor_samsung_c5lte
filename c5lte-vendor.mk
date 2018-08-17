@@ -19,12 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/c5lte/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/c5lte/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
-    vendor/samsung/c5lte/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/c5lte/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/c5lte/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/samsung/c5lte/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/samsung/c5lte/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/c5lte/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/c5lte/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/samsung/c5lte/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/c5lte/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/samsung/c5lte/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/c5lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c5lte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
