@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/sensors.c5lte.so:system/vendor/lib/sensors.c5lte.so \
     vendor/samsung/c5lte/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/c5lte/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
+    vendor/samsung/c5lte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/c5lte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/samsung/c5lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/c5lte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
@@ -91,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/c5lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c5lte/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/samsung/c5lte/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/samsung/c5lte/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/samsung/c5lte/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/c5lte/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
