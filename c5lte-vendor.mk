@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/samsung/c5lte/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/c5lte/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/samsung/c5lte/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/samsung/c5lte/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/c5lte/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/samsung/c5lte/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
@@ -76,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/samsung/c5lte/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/samsung/c5lte/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
+    vendor/samsung/c5lte/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/c5lte/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/c5lte/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/samsung/c5lte/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
@@ -87,11 +87,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/c5lte/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/samsung/c5lte/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/samsung/c5lte/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/c5lte/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/samsung/c5lte/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/samsung/c5lte/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
-    vendor/samsung/c5lte/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/samsung/c5lte/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/samsung/c5lte/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/c5lte/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/samsung/c5lte/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/samsung/c5lte/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/samsung/c5lte/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
     vendor/samsung/c5lte/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
     vendor/samsung/c5lte/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
@@ -293,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libfeedbackhandler.so:system/vendor/lib/libfeedbackhandler.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -388,6 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -404,6 +410,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
@@ -430,6 +438,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/samsung/c5lte/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
@@ -478,6 +487,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
@@ -494,6 +504,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -508,6 +519,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -528,6 +541,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c5lte/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
+    vendor/samsung/c5lte/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/samsung/c5lte/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
